@@ -472,7 +472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 204}
-  - component: {fileID: 953}
+  - component: {fileID: 1565603613}
   m_Layer: 0
   m_Name: Post
   m_TagString: Untagged
@@ -3281,7 +3281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 349}
-  - component: {fileID: 955}
+  - component: {fileID: 2100682847}
   m_Layer: 0
   m_Name: SpawnPoint (2)
   m_TagString: Untagged
@@ -3298,7 +3298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 348}
-  - component: {fileID: 956}
+  - component: {fileID: 1980938363}
   m_Layer: 0
   m_Name: SpawnPoint (4)
   m_TagString: Untagged
@@ -20717,7 +20717,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 23}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e03e01313ff19dc132b090d1f231b069, type: 3}
+  m_Script: {fileID: 11500000, guid: da3523c12354e654193fa74ee4cbeb2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &952
@@ -20750,23 +20750,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: f338c9a7c1fe2c94495129affb677e34, type: 2}
 --- !u!114 &954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20776,36 +20759,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f96e1956d88d477fbe3e3395e76c1f6a, type: 3}
+  m_Script: {fileID: 11500000, guid: c343b96688a6b864799cd926efbfcca1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   graphics: {fileID: 161}
---- !u!114 &955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f96e1956d88d477fbe3e3395e76c1f6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  graphics: {fileID: 163}
---- !u!114 &956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f96e1956d88d477fbe3e3395e76c1f6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  graphics: {fileID: 162}
 --- !u!114 &273961492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21756,6 +21713,23 @@ MonoBehaviour:
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
   m_ObsoleteContactShadows: 0
+--- !u!114 &1565603613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 0}
 --- !u!114 &1606811183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22182,6 +22156,19 @@ MonoBehaviour:
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
   m_ObsoleteContactShadows: 0
+--- !u!114 &1980938363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c343b96688a6b864799cd926efbfcca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graphics: {fileID: 161}
 --- !u!114 &2079439729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22324,6 +22311,19 @@ MonoBehaviour:
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
   m_ObsoleteContactShadows: 0
+--- !u!114 &2100682847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c343b96688a6b864799cd926efbfcca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graphics: {fileID: 161}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
